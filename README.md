@@ -23,7 +23,7 @@ We designed a distributed architecture to efficiently process, transform, and vi
 ![architecture](./viz/architecture.jpg)
 
 - **Apache Spark on EMR**: Parallel processing of large `.jsonl.gz` files.
-- **Amazon S3**: Stores filtered and processed data (~4GB in Parquet).
+- **Amazon S3**: Stores filtered and processed data (~10GB in Parquet).
 - **Elasticsearch + Kibana**: Enables search, aggregation, and interactive dashboards.
 - **Apache Airflow**: Triggers daily updates at 04:00 UTC.
 
